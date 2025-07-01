@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: saddlebrown;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.68), #9e0000);
+    height: 1620px;
+    margin: auto;
+}
+#cont{
+    width: 1100px;
+    height: 1600px;
+    margin: auto;
+    background: rgba(255, 255, 255, 0.48);
+}
+#cont h1{
+    text-align: center;
+    padding: 60px;
+    font-size: 50px;
+}
+.main{
+    margin: auto;
+    width: 1100px;
+    height: 1520px;
+    display: flex;
+    flex-direction: column;
+}
+.main div{
+    flex: 1;
+    text-align: center;
+    padding-top: 20px;
+
+}
+.main div a{
+    text-decoration: none;
+    color: black;
+}
+.main div a h2{
+    background-color: rgba(56, 13, 103, 0.33);
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    padding: 10px;
+    text-decoration: none;
+}
+.main div a h2:hover{
+    background-color: lightblue;
+}
+#slika1{
+    display: inline-flex;
+    background: url("sliki/biogrph.png") no-repeat center;
+    width: 600px;
+    height: 300px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin: auto;
+}
+#slika2{
+    display: inline-flex;
+    background: url("sliki/img.png") no-repeat center;
+    width: 600px;
+    height: 300px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+
+    margin: auto;
+}
+#slika3{
+    display: inline-flex;
+    background: url("sliki/Large_World_Map_bright.jpg") center center ;
+    width: 600px;
+    height: 300px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+#slika4{
+    display: inline-flex;
+    background: url("sliki/pinki.png") no-repeat center;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    width: 534px;
+    height: 90px;
+}
+#footer{
+    margin: auto;
+    height: 119px;
+    background: black;
+}
+#footer h3{
+    padding: 50px;
+    text-align: center;
+    color: rgba(128, 128, 128, 0.58);
+}
+#block1, #block2, #block3{
+    width: 600px;
+    margin: auto;
+}
+#block4{
+    width: 534px;
+    margin: auto;
+}
